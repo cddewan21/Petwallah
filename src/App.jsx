@@ -5,7 +5,7 @@ import Home from "./Home";
 import Service from "./Service";
 import About from "./About";
 import Contact from "./Contact";
-import Navbar from "./Navbar";
+import Navbar from "./NavBar1";
 import Footer from "./Footer";
 import { Switch, Route, Redirect } from "react-router-dom";
 
