@@ -6,20 +6,25 @@ import Service from "./Service";
 import About from "./About";
 import Contact from "./Contact";
 import Navbar from "./NavBar1";
+import Navbar2 from "./NavBar2";
 import Footer from "./Footer";
 import { Switch, Route, Redirect } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-      <Navbar />
+      <h1><Navbar /></h1>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/service" component={Service} />
         <Route exact path="/contact" component={Contact} />
         <Redirect to="/" />
+
+
       </Switch>
+      <Navbar2 />
+
       <Footer />
     </>
   );
