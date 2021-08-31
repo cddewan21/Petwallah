@@ -8,27 +8,110 @@ import software from "../src/images/software.jpeg";
 const Sdata = [
   {
     imgsrc: web,
-    title: "web development",
+    title: "Farmina N&D Dry Dog Food Grain Free Quinoa Digestion Lamb Adult- 2.5 kg",
+    brand:"Farmina",
+    price:2000,
+    Discount :2033,
+    category:"catfood",
+    prodid:1
+  
   },
   {
     imgsrc: app,
-    title: "App development",
+    title: "Farmina N&D Dry Dog Food Grain Free Quinoa Digestion Lamb Adult- 2.5 kg",
+    brand:"Purina",
+    price:2000,
+    Discount:2011 ,
+    category:"dogtreat",
+    prodid:2
+
+  
   },
   {
     imgsrc: software,
-    title: "Software development",
+    title: "Farmina N&D Dry Dog Food Grain Free Quinoa Digestion Lamb Adult- 2.5 kg",
+    brand:"Farmina",
+    price:2000,
+    Discount :20,
+    category:"dogfood"
+  
   },
   {
     imgsrc: digital,
-    title: "Digital Marketing",
-  },
+    title: "Farmina N&D Dry Dog Food Grain Free Quinoa Digestion Lamb Adult- 2.5 kg",
+    brand:"Farmina",
+    price:2000,
+    Discount:20,
+    category:"dogfood"
+   },
   {
     imgsrc: android,
-    title: "Android development",
-  },
+    title: "Farmina N&D Dry Dog Food Grain Free Quinoa Digestion Lamb Adult- 2.5 kg",
+    brand:"Farmina",
+    price:2000,
+    Discount :20 ,
+    category:"dogfood"
+
+   },
   {
     imgsrc: marketing,
-    title: "Marketing",
+    title: "Farmina N&D Dry Dog Food Grain Free Quinoa Digestion Lamb Adult- 2.5 kg",
+    brand:"Farmina",
+    price:2000,
+    Discount :206, 
+    category:"dogfood"
+
+  },
+
+
+  {
+    imgsrc: software,
+    title: "Farmina N&D Dry Dog Food Grain Free Quinoa Digestion Lamb Adult- 2.5 kg",
+    brand:"Farmina",
+    price:2000,
+    Discount :20,
+    category:"catfood"
+  
+  },
+
+
+  {
+    imgsrc: software,
+    title: "Farmina N&D Dry Dog Food Grain Free Quinoa Digestion Lamb Adult- 2.5 kg",
+    brand:"Farmina",
+    price:2000,
+    Discount :20,
+    category:"catfood"
+  
+  },
+  {
+    imgsrc: software,
+    title: "Farmina N&D Dry Dog Food Grain Free Quinoa Digestion Lamb Adult- 2.5 kg",
+    brand:"Farmina",
+    price:2000,
+    Discount :20,
+    category:"catfood"
+  
+  },
+  {
+    imgsrc: software,
+    title: "Farmina N&D Dry Dog Food Grain Free Quinoa Digestion Lamb Adult- 2.5 kg",
+    brand:"royalcanin",
+    price:2000,
+    Discount :20,
+    category:"catfood"
+  
+  },
+
+  {
+    imgsrc: software,
+    title: "Farmina N&D Dry Dog Food Grain Free Quinoa Digestion Lamb Adult- 2.5 kg",
+    brand:"pedigree",
+    price:2000,
+    Discount :20,
+    category:"cattreat",
+    itemonsale:"sale"
+  
   },
 ];
 

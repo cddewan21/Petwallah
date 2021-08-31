@@ -11,11 +11,14 @@ const Card = (props) => {
           <div className="card-body">
             <h5 className="card-title font-weight-bold">{props.title}</h5>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              <b>brand name</b> {props.brand}
+            </p>
+
+            <p className="card-text">
+             <b>Price</b> {props.price}
             </p>
             <NavLink to="" className="btn btn-primary">
-              Check Now
+              <button>Add to Cart</button>
             </NavLink>
           </div>
         </div>

@@ -17,7 +17,77 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/service" component={Service} />
+        <Route exact path="/dogfood"   
+        
+        render={(props) => (
+          <Service category="dogfood" isAuthed={true} />
+        )}
+        
+        />
+
+      <Route exact path="/dogtreat"
+        
+        render={(props) => (
+          <Service category="dogtreat" isAuthed={true} />
+        )}
+        
+        />
+
+
+       <Route exact path="/cattreat"
+        
+        render={(props) => (
+          <Service category="cattreat" isAuthed={true} />
+        )}
+              />
+
+
+
+<Route exact path="/catfood"
+        
+        render={(props) => (
+          <Service category="catfood" isAuthed={true} />
+        )}
+              />
+
+<Route exact path="/pedigree"
+        
+        render={(props) => (
+          <Service brand="pedigree" isAuthed={true} />
+        )}
+              />
+
+<Route exact path="/royalcanin"
+        
+        render={(props) => (
+          <Service brand="royalcanin" isAuthed={true} />
+        )}
+              />
+
+              
+<Route exact path="/Farmina"
+        
+        render={(props) => (
+          <Service brand="Farmina" isAuthed={true} />
+        )}
+              />
+
+<Route exact path="/Purina"
+        
+        render={(props) => (
+          <Service brand="Purina" isAuthed={true} />
+        )}
+              />
+
+
+
+      <Route exact path="/itemonsale"
+        
+        render={(props) => (
+          <Service itemonsale="sale" isAuthed={true} />
+        )}
+              />
+
         <Route exact path="/contact" component={Contact} />
         <Redirect to="/" />
 

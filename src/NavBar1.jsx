@@ -5,8 +5,6 @@ import {
     Link
   } from "react-router-dom";
   import './App.css';
-  import web from "../src/images/img2.jpeg";
-
 
 
 const NavBar1 = () => {
@@ -17,7 +15,7 @@ const NavBar1 = () => {
         <row>
        
         <p>
-  <h1><ReactBootStrap.Navbar.Brand img src={web} href="#home">Pet Wallah</ReactBootStrap.Navbar.Brand></h1>
+  <h1><ReactBootStrap.Navbar.Brand href="#home">Pet Wallah</ReactBootStrap.Navbar.Brand></h1>
   </p>
 
         </row>
@@ -30,34 +28,35 @@ const NavBar1 = () => {
     
   
     <ReactBootStrap.NavDropdown title="Dog" id="collasible-nav-dropdown">
-        <ReactBootStrap.NavDropdown.Item href="/service">Dog Food</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="/service">Dog Treat</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="/dogfood">Dog Food</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="/dogtreat">Dog Treat</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item href="/service">Dog Gromming</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Divider />
-        <ReactBootStrap.NavDropdown.Item href="/service">Cattoys</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="/service">Dogtoys</ReactBootStrap.NavDropdown.Item>
       </ReactBootStrap.NavDropdown>
     </ReactBootStrap.Nav>
     <ReactBootStrap.Nav>
       <ReactBootStrap.NavDropdown title="Cat" id="collasible-nav-dropdown">
-        <ReactBootStrap.NavDropdown.Item href="/service">Cat Food</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="/service">Cat Treat</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="/service">Cat Gromming</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="/catfood">Cat Food</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="/cattreat">Cat Treat</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="/Cat">Cat Gromming</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Divider />
-        <ReactBootStrap.NavDropdown.Item href="/service">Cattoys</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="/Cat">Cattoys</ReactBootStrap.NavDropdown.Item>
       </ReactBootStrap.NavDropdown>
     </ReactBootStrap.Nav>
 
 
     <ReactBootStrap.Nav>
     <ReactBootStrap.NavDropdown title="shop By Brands" id="collasible-nav-dropdown">
-        <ReactBootStrap.NavDropdown.Item href="/service">pedigree</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="/service">royal-canin</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="/pedigree">pedigree</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="/royalcanin">royal-canin</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="/Farmina">Farmina</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Divider />
-        <ReactBootStrap.NavDropdown.Item href="/service">Purina</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="/Purina">Purina</ReactBootStrap.NavDropdown.Item>
       </ReactBootStrap.NavDropdown>
     </ReactBootStrap.Nav>
 
-    <ReactBootStrap.Nav.Link href="/service">Sale</ReactBootStrap.Nav.Link>
+    <ReactBootStrap.Nav.Link href="/itemonsale">Sale</ReactBootStrap.Nav.Link>
 
   </ReactBootStrap.Navbar.Collapse>
 </ReactBootStrap.Navbar>
